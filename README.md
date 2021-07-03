@@ -1,4 +1,4 @@
-# This image will help you to start with Python Django Django Rest Framework and Postgres
+# This image will help you to start with Python, Django, Django Rest Framework and Postgres
 
 ### Just clone the repo
 ```
@@ -13,7 +13,7 @@ environment:
   - POSTGRES_PASSWORD=[your-password]
 ```
 
-### Build the imaga and create Django project in one command
+### Build the image and create Django project in one command
 ```
 $ docker-compose run --rm web django-admin startproject [your-project-name] .
 ```
